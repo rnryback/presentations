@@ -1,0 +1,8 @@
+name: Publish Document
+title:
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/222243/5355a7274f7448e9b70b35046dcb5a42
+bundleId: https://api.rpubs.com/api/v1/document/222243/5355a7274f7448e9b70b35046dcb5a42
+url: http://rpubs.com/rnryback/222243
+when: 1479137336.33008

@@ -1,0 +1,272 @@
+---
+title: "TestBash Manchester"
+author: "Raúl Nicolás and Elysia Altuntas"
+date: "27/10/2016"
+output: slidy_presentation
+css: complex-css.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Hello world!
+
+Welcome to our [Testbash] experience
+![alt text][logo]
+
+[logo]: http://www.ministryoftesting.com/wp-content/uploads/2016/02/TestBash-Manchester-Logo-150x150.png "Manchester"
+
+[Testbash]:http://http://www.ministryoftesting.com/training-events/testbash-manchester/
+
+<!-- <div class="midcenter" style="margin-left:200px; margin-top:200px;"> -->
+<!-- <img src="600.png"></img> -->
+<!-- </div> -->
+
+![TESTBASH MANCHESTER](http://img.youtube.com/vi/rQs09btwG8c/0.jpg)](http://www.youtube.com/watch?v=rQs09btwG8c)
+
+## [James Bach](https://twitter.com/jamesmarcusbach). Don't think so close to me: Managing Critical and Social distance by testing
+
++ Critical distance both helps and harms testing and development
+  1. Helps preventing shared errors
+  2. Helps increasing innovation
+  3. Helps detecting errors that do occur
+  4. Different people and processes would lead to different results/conclusions
+  
+![Critical Distance][logo2]
+
+[logo2]: http://assurity.co.nz/assets/Uploads/_resampled/ResizedImageWzUwMCwzNzVd/CalumTP7.png "CD"
+
+## [James Bach](https://twitter.com/jamesmarcusbach). Don't think so close to me
+  
++ Social distance concept: free flow of information
+  1. Can be very harmful. Social forces corode critical distance
+  2. Cause or hide errors by reducing the sharing of critical information
+  3. Open plan offices work differently for different teams. Need of breakout areas
+  4. I got my job - you have yours
+  
+![Critical Distance][logo3]
+
+[logo3]: http://assurity.co.nz/assets/Uploads/_resampled/ResizedImageWzUwMCwzNzVd/CalumTP7.png "CD"
+  
+## [James Bach](https://twitter.com/jamesmarcusbach). Don't think so close to me
+
+
+| Social Distance | Critical Distance |            |
+|-----------------|-------------------|------------|
+|       low       |        low        | Harmonious |
+|       low       |        high       | Productive |
+|       high      |        high       | Irritating |
+|       high      |        low        | Reticent   |
+
+Heuristic for technical teams: Cultivate CD an Eliminate SD
+
+## [James Bach](https://twitter.com/jamesmarcusbach). Don't think so close to me
+
+In some ways reducing CD can make testing better!
+  - Code reviews to give ideas for testing
+
+Multiple mindsets are critical (Test/Dev/BA)
+  - Perm and short term
+
+![Mount Mindset][logo1]
+
+[logo1]: http://assurity.co.nz/assets/Uploads/_resampled/ResizedImageWzUwMCwzNzVd/CalumTP6.png "Mount Mindset"
+
+
+## Ian Bright. Psychology of asking questions
+
+- Challenge yourself internally first
+  1. Keep asking
+  2. Rephrase
+  3. Why do you think it is important?
+  4. What are you trying to achieve?
+  
+- Questions are a tool to influence and change behaviour
+
+- Foot in the door, door in the face
+
+- Get the team asking questions
+  1. What is the risk
+  2. What is the impact
+  3. What is the value
+  
+
+## Ian Bright. Psychology of asking questions
+
+- Get other to ask questions on our behalf
+  1. Propose a new apporach
+  2. Challenging proposals
+  3. Objective
+  
+- Utilise the good relationship between users and developers
+
+## [Kim Knup](https://twitter.com/Punkmik). On positivity - Turning that frown upside down
+
+- Positive testing: Works as expected
+
+- Negative testing: handling invalid requests
+
+- Quality cannot be added to the product by testing you inform about the existing one
+
+## [Kim Knup](https://twitter.com/Punkmik). On positivity - Turning that frown upside down
+
+- Embracing Positivity: Advantages
+  1. Wider perspective
+  2. Increased activity
+  3. stamina
+
+- Become happier
+  1. Be grateful
+  2. Meditation
+  3. Random acts of kindness
+
+- People and interactions over tools and processes
+
+## [Stepehen Mounsey](https://twitter.com/stephenmounsey). Listening: An essential skill for software testers
+
+-Is easier to prove the presence of a problem than the absence of it
+
+-How do we listen?
+
+  1. Reductively (listening 'for', men typically listen like this)
+  2. Expansively (listening 'with', women typically listen expansively)
+  
+-Note the amount of info we naturally block out every day
+
+-Listening is not about us, it is about the speaker
+  
+## [Stepehen Mounsey](https://twitter.com/stephenmounsey). Listening: An essential skill for software testers
+
+L ook and listen  
+I nterrupt  
+S ummarise  
+T est  
+E valuate  
+N eutralize  
+
+![Sketch][logo5]
+
+[logo5]: https://pbs.twimg.com/media/CvR6RRyUMAE5DAw.jpg "Sketch"
+
+## [Duncan Nisbet](https://twitter.com/DuncNisbet). Testers! Be more Salmon!
+
+-Context is KING
+
+-Shared documentation does not equal shared understanding
+
+-Testing is asking questions to squash assumptions
+
+-Ask questions of designs before code gets written and talk about testability
+
+-Does what we are building solve the problem? Question the idea, the need and the why
+
+## [Helena Jaret-Mae](https://twitter.com/HelenaJ_M) and [Joep Schuurkes](https://twitter.com/j19sch). The 4-hour tester experiment (no testers were harmed in the process)
+
+- Exercises available in [fourhourtester.net]. Available on GitHub for anyone to contribute!
+  1. De-construct
+  2. Select
+  3. Sequence
+  4. States
+  
+- Consider how to make the learner make sense of the experience
+- Focus on mindset over focus on skills
+
+[fourhourtester.net]: http://www.fourhourtester.net/
+
+## [Mark Witheringham](https://twitter.com/2bittester). The deadly sins of acceptance scenarios
+
+```
+When I write one scenario
+And I use it as a test script
+Then I am a sinner
+```
+
+## [Mark Witheringham](https://twitter.com/2bittester). The deadly sins of acceptance scenarios. SIN 1
+
+- Do not write scenarios and use them as test cases
+  1. Get the team involved in developing scenarios
+    * Maintenance
+    * Documentation
+
+## [Mark Witheringham](https://twitter.com/2bittester). The deadly sins of acceptance scenarios. SIN 2
+
+- Do not document Aceptance Criteria as scenarios
+  1. Use very brief AC's and have some scenario to test
+  2. Be wary of tools
+  3. "You can't specify love"
+
+## [Mark Witheringham](https://twitter.com/2bittester). The deadly sins of acceptance scenarios. SIN 3
+
+- Automated scenarios are not good enough automation coverage
+
+Use scenarios to enable discussion about requirements!  
+Decouple automation strategy from your scenarios  
+Identify risks first and then the tools  
+Put the Human at the center of Automation
+
+![FART MODEL](http://img.youtube.com/vi/P2PUXqasvGI/0.jpg)](http://www.youtube.com/watch?v=P2PUXqasvGI)
+
+## [Huib Schoots](https://twitter.com/huibschoots). A road to awesomeness
+
+- Be curious. Continuous learning. Testing is about learning
+- Deliberate practice. Excellent testing is difficult
+- Formal education. Diversify your approach
+- Self Education. Read the books
+- Training should be challenging and in a safe environment
+- Be a mentor
+- Practice again and again
+- Discuss and debate
+- Focus/defocus. Allow time for proceessing thoughts and ideas
+- Making mistakes allows you to learn from experience
+
+
+## [Gwen Diagram](https://twitter.com/gwendiagram). Is test causing your live problems?
+
+- Mantain your test environments as close as possible to live
+- Can yo load and performance test TEST?
+- Monitoring is a form of testing
+- Manual deployments imply human error
+- Good monitoring and logging does not imply a good selling product
+
+## [Beren van Daele](https://twitter.com/EnquireTST).Getting the message across
+
+- Bug wall. How to make management understand a problem
+- Exploratory testing not accepted as a valueble practice. Need to do thegood  testing under the hood
+- Inflexible processes and ways of working
+
+![Wall][logo7]
+
+[logo7]: http://blog.scottlogic.com/rhamilton/assets/bugwall.jpg "Bug Wall"
+
+## 99 Second talks
+
+![99 Seconds][logo8]
+
+[logo8]: https://pbs.twimg.com/media/CvU94FeWIAAxmPW.jpg "Speaker"
+
+## Open Conference
+
+- TestSphere. Beren Van Daele
+  1. Break the ice for new team members
+  2. Recruitment processes
+  3. Knowledge sharing
+
+![Heuristics][logo6]
+
+[logo6]: https://pbs.twimg.com/media/CvwRuuxXgAA6vC4.jpg "Card"
+
+## Open Conference
+
+- Rolegrams. James Bach
+  1. Rolegrams drive conversations around roles making them visual
+  2. Tasks, contracts, persons and boundary objects are the key elements
+  3. Fuzzy lines for undefined. Open lines for inconsistency
+
+## Open Conference
+
+- Importance of developer handovers and dealing without them
+
+- Office Politics: Coping with things that you can’t change
+
+## Thanks for listening!
